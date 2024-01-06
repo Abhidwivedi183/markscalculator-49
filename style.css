@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  font-size: 1.6rem;
+  font-family: tahoma;
+
+}
+.background{
+  background: url("https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+  width: 100%;
+}
+.container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box{
+  width: 70%;
+  height: 400px;
+  background-color: rgb(33, 58, 58);
+  border-radius: 30px;
+  border: 3px solid rgb(6, 141, 141);
+  position: relative;
+  left: 600px;
+  box-shadow: 0 4px 4px rgb(0, 0, 0,0.25);
+}
+.content{
+  position: relative;
+  left: 600px;
+}
+.content h1{
+font-size: 70px ;
+font-weight: 600;
+}
+.content h2{
+  font-size:45px ;
+  font-weight: 500;
+}
+.forms{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 5px;
+padding: 10px;
+position: relative;
+left: 45px;
+top: 120px;
+}
+input{
+  height:60%;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  width:40% ;
+}
+.input::placeholder{
+  font-size:15px ;
+  color: white;
+}
+input:focus-visible{
+  outline: 2px solid rgb(72, 72, 208);
+  border: 2px solid rgb(72, 72, 208) ;
+}
+.primbutton{
+  font-size: 20px;
+  padding: 4px;
+  color: white;
+  background-color: purple;
+  border: none;
+ border-radius: 15px;
+ position: relative;
+ left: 50px;
+}
+.primbutton:hover{
+  opacity: 0.9;
+}
+.primbutton:active{
+  opacity: 1;
+  background-color: rgb(88, 88, 235);
+}
+.res{
+  font-size:15px;
+  font-weight: 400;
+color: white;
+font-family: tahoma;
+position: relative;
+top: 120px;
+}
